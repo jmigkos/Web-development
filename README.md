@@ -20,8 +20,25 @@ Time
 Tables:
     <tr> Table row
     <th> Headers which correspond to columns
-    <td> Avtual data cells
+    <td> Actual data cells
     The following are used to wrap the above into logical sections:
     <thead>
     <tbody>
     <tfoot>
+Form:collection thats filled with inputs checkboxes buttons etc.
+    Attributes:action-->where the data should be sent
+                method--->which http method should be used eg. get and post
+
+    Input types:text, password,email,checkbox, radio,color,reset,range etc
+
+    Labels for accesibility:attribute for associates the label with the input that has the same id as the for, inline element
+
+    Buttons:The default is submit
+        Radio: to be only able to check one radio button make sure they all have the same name 
+            the value is what it will be sent to the server
+    Dropdown menu:select>option
+    Textarea
+    Validations:
+        required input
+        min, max, minlength, maxlength
+        pattern:regex
