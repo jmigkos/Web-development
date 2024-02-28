@@ -42,3 +42,28 @@ Form:collection thats filled with inputs checkboxes buttons etc.
         required input
         min, max, minlength, maxlength
         pattern:regex
+
+2.CSS
+<link rel="stylesheet" href="styles.css"> to link with html
+
+Color:changes text color
+background color
+    Different color systems:
+    1)by name
+    2)rbg(0-255)
+    3)hexadecimal(#000000-#FFFFFF)
+
+Text properties:
+text-align:center, left,right
+
+
+text decoration: underline dotted red wavy; or none;
+
+line height
+letter spacing
+
+font-size: used with px or relative units like em , rem
+
+font-weight:control boldness or lightness of text eg normal, bold
+
+font-family:Ariel, sans serif (the second is a fallback family)
