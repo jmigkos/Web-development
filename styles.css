@@ -1,0 +1,14 @@
+button {
+    color: teal;
+    background-color: #000;
+    /*#000 is the same as #000000. 
+     and #c5e is the same as #cc55ee */
+}
+
+#top_movies{
+    background-color: black;
+}
+
+.class {
+    background-color: teal;
+}
