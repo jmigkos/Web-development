@@ -88,3 +88,8 @@ eg. :first-child, :nth-of-type(), :hover, :active
 Pseudoelements:keyword added to a selector that lets you style a particular part of the selected element eg. ::after, ::before, ::first-letter, ::first-line, ::selection(this is when you select something)
 
 Box Model:
+If i want the box to stay the same size use box-sizing:border-box
+Content box: width-height
+border/border-radius:width-style-color, usually with px,
+padding
+margin:between borders and other elements
