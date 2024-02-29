@@ -76,8 +76,6 @@ list: eg h1,h2{}
 id: corresponds with the html element with the same id.It's formatted as: #idname{}
 class: similar with id, can be used on multiple elements with the same class, formatted as : .class{
 
-    }
-
 Descendants: li a{}-->select all the <a>'s that are nested inside an <li>
 Adjacent: h1 + p {}-->select all p that are immediately after an h1
 Direct child: div > li {}-->select only the li that are direct children of a div
@@ -93,3 +91,18 @@ Content box: width-height
 border/border-radius:width-style-color, usually with px,
 padding
 margin:between borders and other elements
+
+Display:
+eg inline, block,inline-block,flex
+Inline:width and height are ignored, padding pushes away only horizontally
+block:width and height are not ignored
+inline-block:behaves like inline, respects all the attributes
+
+Units:
+Pixels:absolute
+Percentage:width :50%--> 50% of the parent
+line-width:50%--> 50% of the line itself
+Em:font-size:1em--> equal with the font-size of parent
+other properties(paddind-margin...):1em --> equal to the computed font-size of the element itself
+the problem is that with nested ul for example using em will cause them to stack
+Rem:Derives the font-size from the root html element
