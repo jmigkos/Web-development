@@ -137,3 +137,30 @@ F.Google fonts: https://fonts.google.com/
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap"
         rel="stylesheet"> 
         font-family: Roboto, sans-serif;
+
+Flexbox:
+display:flex
+
+    main axis->horizontal
+    cross axis->vertical
+
+    flex-direction:It changes the main axis---> row and row-reverse, column and column-reverse.
+
+    justify-content: how the content is distributed across the main axis
+        eg. flex-start, flex-end, center, space-between,space-around, space-evenly
+
+    align-items:distribute items along the cross axis.Same values as justify content
+        baseline: to align using the text of elements with different heights
+
+    flex-wrap: it determines whether our elements are going to wrap along the main axis onto a new line (horizontal) or column (vertical)--> wrap and wrap-reverse and nowrap
+
+    align-content:how the space of the elements on the cross axis is distributed
+
+    align-self: only with one element
+
+    flex: flex-grow| flex-shrink| flex-basis eg.2 2 10%
+        flex-basis:the initial size an element should be added into our box as. it could be width or height depending on the main axis
+        flex-grow:controls the amount of available space en element should take up
+        flex-shrink:if items>container they shrink them
+
+Media queries: @media (parameters){}
