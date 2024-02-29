@@ -106,3 +106,34 @@ Em:font-size:1em--> equal with the font-size of parent
 other properties(paddind-margin...):1em --> equal to the computed font-size of the element itself
 the problem is that with nested ul for example using em will cause them to stack
 Rem:Derives the font-size from the root html element
+
+Other properties:
+A.Opacity-->alpha channel eg rgba(0,0,0,0.7).it affects only hte background color
+--->opacity.it affects contents and descendants
+
+B.Position---> Its value determines how the top,right,bottom and left properties of an element will be set
+Static: default
+
+    Relative:Relative to itself
+
+    Absolute:Its removed from the normal document flow, no space created for the element. It is positioned relative to its closest positioned ancestor. It creates a z index
+
+    Fixed:Its removed from the normal document flow, no space created for the element. It is positioned relative to the initial containing block
+
+    Sticky:Behaves like fixed when you scroll
+
+C.Transitions:https://easings.net/
+eg. when hovering
+transition: property name| duration| timing function| delay
+eg. transition: background-color 3s easeInSine 1s
+
+D.Transform
+rotate, skew, scale, translatexyz,matrix
+
+E.Background:color, image, size, cover
+
+F.Google fonts: https://fonts.google.com/
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet"> 
+        font-family: Roboto, sans-serif;
