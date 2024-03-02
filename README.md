@@ -185,3 +185,6 @@ For the grid system you need to work in a container
 For accesibility on group buttons use role="group"
 Grid:to create responsive websites USE CONTAINER.IT IS ALWAYS 12 UNITs within each row.
     col-md-6: for md breakpoint and above take six units
+
+3.JAVASCRIPT
+See the cheatsheets in Javascript folder
