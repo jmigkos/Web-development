@@ -188,4 +188,13 @@ Grid:to create responsive websites USE CONTAINER.IT IS ALWAYS 12 UNITs within ea
 
 3.JAVASCRIPT
 See the cheatsheets in Javascript folder
-I have an object with some properties and also a function property there.If i want to access from this function some other object property I use the this keyword eg. this.property
+I have an object with some properties and also a function property there.If i want to access from this function some other object property I use the this keyword eg. this.property. Caution depends on the invocation process since the "this" keyword may refer to the windows object
+
+Arrow function :
+const add = (x,y)=>{return x+y};
+In an arrow function the this keyword refers only to the scope of the function so caution because at times it may be referring to the object and others to the window object.
+
+Implicit returns can only be used with arrow functions, meaning we can leave out the return keyword in certain situations. Simply omit the return keyword when there is only one thing happening in the function and replace the {} with () or if it is on one line dont even use parentheses
+
+Reduce : main goal is to take some array and reduce it down to a single value. We have to provide a reducer function, which is really just a function that follows a particular format where there are two parameters.
+
