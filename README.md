@@ -188,3 +188,4 @@ Grid:to create responsive websites USE CONTAINER.IT IS ALWAYS 12 UNITs within ea
 
 3.JAVASCRIPT
 See the cheatsheets in Javascript folder
+I have an object with some properties and also a function property there.If i want to access from this function some other object property I use the this keyword eg. this.property
