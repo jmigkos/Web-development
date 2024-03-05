@@ -198,3 +198,15 @@ Implicit returns can only be used with arrow functions, meaning we can leave out
 
 Reduce : main goal is to take some array and reduce it down to a single value. We have to provide a reducer function, which is really just a function that follows a particular format where there are two parameters.
 
+Default parameters:what to do if you have optional parameters.If you have many parameters you put the default at the end
+
+Spread:
+1.In function calls: separates/expands the iterable arguments eg strings.array to its components
+2.In array/string literals: combine-copy arrays to other arrays/strings
+3.In objects:copy properties from one object to a new.
+You may use it when a user registers and apart from his info you want to put itno object things like id, isAdmin...
+
+Rest:looks like spread but not
+it takes the arguments in a function and put them in an array so we can use array methods like reduce in the function
+
+Destructure: Unpack values from arrays and properties from objects into distinct variables
