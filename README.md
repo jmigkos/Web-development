@@ -210,3 +210,37 @@ Rest:looks like spread but not
 it takes the arguments in a function and put them in an array so we can use array methods like reduce in the function
 
 Destructure: Unpack values from arrays and properties from objects into distinct variables
+
+4.DOM
+
+html and css is taken and turned into js objects
+getElementById/Tag/ClassName
+querySelector('h1'/'#red'/'.big')-->finds first h1/first id of red/first class of big
+querySelectorAll(use the css selectors eg. p a ,which means all tha a inside a p):returns a collection of the elements
+getAttribute(), setAttribute()
+innerText(), innerHTML(),textContent
+window.getComputedStyle(element) or element.style.attribute = ""
+
+It is usual to create a class on css and apply this class via javascript on elements, mainly on events
+Use querySelector.classList.add/toggle/remove
+document.createElement()--->appendChild , prepend, insertAdjacentElement
+
+Events: click, drag, drop.hover, scroll,key press,mouse...
+Inline events: in html use onclick
+eg.online = "alert('click me')"
+in javascript in document objects set property onclick, ondrag etc to a function
+addEventListener(best practice): you can have many callback functions
+eg.button.addEventListener('click', () =>{alert("You clicked me")})
+!So inside of an event handler callback,the keyword this is going to refer to the element that the event occured on!
+
+on every event , an event onject is being created in the callback function and we see it if we capture it. We rely on this mainly on keyboard events because we want to see which one was used. use e.code/ e.key
+
+Form events: when we want to bypass the default actions of forms eg.when submit is clicked the browser goes to the url specified in the action attribute and we may not want that
+Use event.preventDefault();
+
+change event:it fires when we blur out of the input, input event it changes as the input changes
+
+Event bubbling : the events are triggered on all the elements that the elements is nested in and are listening to the same event.
+we stop it with e.stopPropagation
+
+Event Delegation: The events will not be working on new elements since the new dont have an addEventListener. So we put the event on the parent and write the logic for the element we want using e.target
